@@ -1,12 +1,12 @@
 
 return {
-	bot_api_key = "266329364:AAEWtg9wSuipCG1opXwLG_dB310A3FjcGFk", --Please add your bot api key here!
+	bot_api_key = "266329364:AAHVYSqsOFGm91l5UBrSQDSW7qtJ2O2U-fg", --Please add your bot api key here!
 	cmd = '^[/!#]',
 	db = 2, --default redis db: 0
-	superadmins = {62834077, 204363060 },
+	superadmins = {62834077, 308610366 },
 	log = {
-		chat = -194846672 , --Your log chat, where your bot must be added!
-		admin = 62834077,204363060, --The admin.
+		chat = -1419915618 , --Your log chat, where your bot must be added!
+		admin = 62834077,308610366, --The admin.
 		stats = nil
 	},
 	human_readable_version = '4.2.0',
@@ -23,9 +23,9 @@ return {
 		realm_max_members = 60,
 		realm_max_subgroups = 6
 	},
-	channel = '@bhh_ch', --channel username with the '@'
+	channel = '@BHHteam', --channel username with the '@'
 	source_code = '',
-	help_groups_link = 'telegram.me/BHH_ch',
+	help_groups_link = 'telegram.me/BHHteam',
 	plugins = {
 		'onmessage', --THIS MUST BE THE FIRST: IF AN USER IS FLOODING/IS BLOCKED, THE BOT WON'T GO THROUGH PLUGINS
 		'antispam', --SAME OF onmessage.lua
